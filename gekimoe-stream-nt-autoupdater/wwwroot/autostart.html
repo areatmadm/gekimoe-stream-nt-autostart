@@ -31,7 +31,11 @@
             user-select: none;
         }
         .logo-container { margin-top: 26px; width: 849px; height: 128px; display: flex; justify-content: center; }
-        .logo-container img { max-width: 100%; object-fit: contain; }
+        .logo-container img {
+            max-width: 100%;
+            object-fit: contain;
+            -webkit-user-drag: none;
+        }
         .status-title {
             font-family: 'ClipArtKorea-Logo', sans-serif; /* 💡 이 한 줄이 추가되었습니다! */
             font-size: 24pt;
@@ -46,9 +50,9 @@
         .progress-text { position: absolute; bottom: 0; width: 100%; height: 52px; font-size: 15pt; text-align: center; display: flex; justify-content: center; align-items: flex-start; }
     </style>
 </head>
-<body>
+<body oncontextmenu="return false;" ondragstart="return false;">
     <div class="logo-container">
-        <img src="assets/logo.svg" alt="Logo">
+        <img src="assets/logo.svg" alt="Logo" draggable="false">
     </div>
 
     <div id="lbl_name" class="status-title">방송PC를 준비하고 있습니다...</div>
@@ -56,7 +60,7 @@
     <div id="lbl_information" class="info-text">시스템 체크 중...</div>
 
     <div class="version-container">
-        AutoStart System Version : <span id="lbl_nowver" class="version-value">1.0.0</span>
+        AutoStart System Version : <span id="lbl_nowver" class="version-value">-</span>
     </div>
 
     <div id="pg" class="progress-text">초기화 중...</div>
@@ -65,6 +69,7 @@
         window.external.receiveMessage(function(data) {
             const json = JSON.parse(data);
             if (json.target === 'info') document.getElementById('lbl_information').innerText = json.value;
+            if (json.target === 'nowver') document.getElementById('lbl_nowver').innerText = json.value;
             if (json.target === 'name') document.getElementById('lbl_name').innerText = json.value;
             if (json.target === 'pg') document.getElementById('pg').innerText = json.value;
         });

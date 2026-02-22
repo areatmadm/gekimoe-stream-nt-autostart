@@ -39,6 +39,28 @@ namespace GEKImoeStreamNTAutoStart
                 .RegisterWindowCreatedHandler((sender, e) =>
                 {
                     var win = (PhotinoWindow)sender!;
+
+                    // [핵심 치료] Photino의 강제 바로가기 즉시 암살 로직
+                    Task.Run(async () =>
+                    {
+                        // 엔진이 파일을 생성하고 손을 뗄 때까지 1.5초 대기
+                        await Task.Delay(1500);
+                        try
+                        {
+                            // 시작 메뉴의 Programs 폴더 경로 추적
+                            string programsFolder = Environment.GetFolderPath(Environment.SpecialFolder.Programs);
+                            // 창 제목(Title)을 그대로 이용해 바로가기 파일명 조립
+                            string shortcutPath = Path.Combine(programsFolder, $"{win.Title}.lnk");
+
+                            // 파일이 생성된 것을 확인하면 흔적도 없이 삭제!
+                            if (File.Exists(shortcutPath))
+                            {
+                                File.Delete(shortcutPath);
+                            }
+                        }
+                        catch { } // 권한 문제로 삭제 실패 시 메인 앱이 터지지 않도록 무시
+                    });
+
                     // Windows 11 이상에서만 둥근 모서리 적용 (WindowHelper 내부에서 OS 체크 수행)
                     WindowHelper.ApplyRoundedCorners(win);
 
@@ -274,20 +296,28 @@ namespace GEKImoeStreamNTAutoStart
                             string batPath = Path.Combine(webCamDir, "restore.bat");
                             string cfgPath = Path.Combine(webCamDir, "cam_sett.cfg");
 
-                            // 웹캠 복구 스크립트 실행
-                            if (File.Exists(cfgPath))
+                            try
                             {
-                                UpdateUI(window, "pg", "웹캠 설정을 로드합니다...");
-
-                                Process.Start(new ProcessStartInfo
+                                // 웹캠 복구 스크립트 실행
+                                if (File.Exists(cfgPath))
                                 {
-                                    FileName = batPath, // "restore.bat" 대신 완벽한 절대 경로 사용
-                                    WorkingDirectory = webCamDir,
-                                    WindowStyle = ProcessWindowStyle.Hidden,
-                                    UseShellExecute = true // [핵심] .bat 파일을 실행하려면 무조건 true여야 합니다!
-                                });
+                                    UpdateUI(window, "pg", "웹캠 설정을 로드합니다...");
 
-                                await Task.Delay(2000);
+                                    Process.Start(new ProcessStartInfo
+                                    {
+                                        FileName = batPath, // "restore.bat" 대신 완벽한 절대 경로 사용
+                                        WorkingDirectory = webCamDir,
+                                        WindowStyle = ProcessWindowStyle.Hidden,
+                                        UseShellExecute = true // [핵심] .bat 파일을 실행하려면 무조건 true여야 합니다!
+                                    });
+
+                                    await Task.Delay(2000);
+                                }
+                            }
+                            catch (Exception ex)
+                            {
+                                UpdateUI(window, "pg", $"오류 발생: {ex.Message}");
+                                await Task.Delay(5000);
                             }
 
                             UpdateUI(window, "pg", "스트리밍을 시작합니다...");

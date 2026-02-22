@@ -214,4 +214,4 @@ E:\project\gekimoe-stream-nt-autostart\obj\x64\Debug\net9.0\win-x64\refint\AutoS
 E:\project\gekimoe-stream-nt-autostart\obj\x64\Debug\net9.0\win-x64\AutoStartNT.pdb
 E:\project\gekimoe-stream-nt-autostart\obj\x64\Debug\net9.0\win-x64\gekimoe-stream-nt-autostart.genruntimeconfig.cache
 E:\project\gekimoe-stream-nt-autostart\obj\x64\Debug\net9.0\win-x64\ref\AutoStartNT.dll
-E:\project\gekimoe-stream-nt-autostart\bin\x64\Debug\net9.0\win-x64\wwwroot\ipad.svg
+E:\project\gekimoe-stream-nt-autostart\obj\x64\Debug\net9.0\win-x64\gekimoe-stream-nt-autostart.sourcelink.json

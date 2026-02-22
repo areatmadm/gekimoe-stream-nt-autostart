@@ -40,6 +40,7 @@
             height: 100%;
             width: auto;
             max-width: 90%;
+            -webkit-user-drag: none;
         }
 
         .updater-status {
@@ -56,10 +57,10 @@
         }
     </style>
 </head>
-<body>
+<body oncontextmenu="return false;" ondragstart="return false;">
 
     <div class="logo-wrapper">
-        <img src="assets/updaterlogo.svg" alt="Updater Logo">
+        <img src="assets/updaterlogo.svg" alt="Updater Logo" draggable="false">
     </div>
 
     <div id="lbl_status" class="updater-status">업데이트를 확인하는 중입니다...</div>

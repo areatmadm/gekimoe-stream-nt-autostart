@@ -15,12 +15,12 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyCopyrightAttribute("© 2019-2026 AreaTM")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("GEKImoe Stream NT AutoStart")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("6.0.0.5")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("6.0.0+b8a3084b62f8710f5f37e6bde6106e1391bd47b5")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("6.0.0.6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("6.0.0+c33e2f873198dc8104ae85af20586910752a1e13")]
 [assembly: System.Reflection.AssemblyProductAttribute("GEKImoe Stream NT AutoStart")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AutoStartNT")]
-[assembly: System.Reflection.AssemblyVersionAttribute("6.0.0.5")]
-[assembly: System.Reflection.AssemblyMetadata("BuildDateTime", "202602220234")]
+[assembly: System.Reflection.AssemblyVersionAttribute("6.0.0.6")]
+[assembly: System.Reflection.AssemblyMetadata("BuildDateTime", "202602221458")]
 
 // MSBuild WriteCodeFragment 클래스에서 생성되었습니다.
 

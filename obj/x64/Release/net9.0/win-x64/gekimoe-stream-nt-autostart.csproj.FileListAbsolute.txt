@@ -214,3 +214,4 @@ E:\project\gekimoe-stream-nt-autostart\obj\x64\Release\net9.0\win-x64\AutoStartN
 E:\project\gekimoe-stream-nt-autostart\obj\x64\Release\net9.0\win-x64\refint\AutoStartNT.dll
 E:\project\gekimoe-stream-nt-autostart\obj\x64\Release\net9.0\win-x64\AutoStartNT.pdb
 E:\project\gekimoe-stream-nt-autostart\obj\x64\Release\net9.0\win-x64\ref\AutoStartNT.dll
+E:\project\gekimoe-stream-nt-autostart\obj\x64\Release\net9.0\win-x64\gekimoe-stream-nt-autostart.sourcelink.json

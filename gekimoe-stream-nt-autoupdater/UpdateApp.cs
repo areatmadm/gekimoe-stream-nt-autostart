@@ -48,7 +48,7 @@ namespace GEKImoeStreamUpdaterNT
                     });
 
                     // Windows 10/11 호환성을 위한 둥근 모서리 적용 로직 (생략 또는 외부 클래스 참조)
-                    // WindowHelper.ApplyRoundedCorners(win);
+                    WindowHelper.ApplyRoundedCorners(win);
 
                     Task.Run(async () => await RunExtractionSequence(win));
                 })

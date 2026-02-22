@@ -15,9 +15,9 @@
     <Company>AreaTM</Company>
     <Copyright>© 2019-2026 AreaTM</Copyright>
     <Version>6.0.0</Version>
-    <FileVersion>6.0.0.5</FileVersion>
-    <AssemblyVersion>6.0.0.5</AssemblyVersion>
-    <BuildDateTime>202602220234</BuildDateTime>
+    <FileVersion>6.0.0.6</FileVersion>
+    <AssemblyVersion>6.0.0.6</AssemblyVersion>
+    <BuildDateTime>202602221458</BuildDateTime>
     
     <Platforms>x64</Platforms>
     <RuntimeIdentifiers>win-x64</RuntimeIdentifiers>
