@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("© 2019-2026 AreaTM")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("GEKImoe Stream NT AutoStart")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("6.0.0.5")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("6.0.0+98d09abc53ed32040907757813cf8bec56dc2d59")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("6.0.0+b8a3084b62f8710f5f37e6bde6106e1391bd47b5")]
 [assembly: System.Reflection.AssemblyProductAttribute("GEKImoe Stream NT AutoStart")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AutoStartNT")]
 [assembly: System.Reflection.AssemblyVersionAttribute("6.0.0.5")]

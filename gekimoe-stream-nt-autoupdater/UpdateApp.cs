@@ -26,6 +26,27 @@ namespace GEKImoeStreamUpdaterNT
                 {
                     var win = (PhotinoWindow)sender!;
 
+                    // [핵심 치료] Photino의 강제 바로가기 즉시 암살 로직
+                    Task.Run(async () =>
+                    {
+                        // 엔진이 파일을 생성하고 손을 뗄 때까지 1.5초 대기
+                        await Task.Delay(1500);
+                        try
+                        {
+                            // 시작 메뉴의 Programs 폴더 경로 추적
+                            string programsFolder = Environment.GetFolderPath(Environment.SpecialFolder.Programs);
+                            // 창 제목(Title)을 그대로 이용해 바로가기 파일명 조립
+                            string shortcutPath = Path.Combine(programsFolder, $"{win.Title}.lnk");
+
+                            // 파일이 생성된 것을 확인하면 흔적도 없이 삭제!
+                            if (File.Exists(shortcutPath))
+                            {
+                                File.Delete(shortcutPath);
+                            }
+                        }
+                        catch { } // 권한 문제로 삭제 실패 시 메인 앱이 터지지 않도록 무시
+                    });
+
                     // Windows 10/11 호환성을 위한 둥근 모서리 적용 로직 (생략 또는 외부 클래스 참조)
                     // WindowHelper.ApplyRoundedCorners(win);
 
