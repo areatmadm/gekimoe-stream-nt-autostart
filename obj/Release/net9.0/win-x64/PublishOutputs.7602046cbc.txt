@@ -1,0 +1,6 @@
+C:\Users\jinda\Downloads\test3\AutoStartNT.pdb
+C:\Users\jinda\Downloads\test3\wwwroot\assets\logo.svg
+C:\Users\jinda\Downloads\test3\wwwroot\assets\updaterlogo.svg
+C:\Users\jinda\Downloads\test3\wwwroot\autostart.html
+C:\Users\jinda\Downloads\test3\wwwroot\updater.html
+C:\Users\jinda\Downloads\test3\AutoStartNT.exe

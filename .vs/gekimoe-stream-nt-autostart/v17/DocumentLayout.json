@@ -1,0 +1,221 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\project\\gekimoe-stream-nt-autostart\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{144A790F-4C23-4EAF-8EAD-27B14BCE9C5C}|gekimoe-stream-nt-autoupdater\\gekimoe-stream-nt-autoupdater.csproj|e:\\project\\gekimoe-stream-nt-autostart\\gekimoe-stream-nt-autoupdater\\gekimoe-stream-nt-autoupdater.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{144A790F-4C23-4EAF-8EAD-27B14BCE9C5C}|gekimoe-stream-nt-autoupdater\\gekimoe-stream-nt-autoupdater.csproj|solutionrelative:gekimoe-stream-nt-autoupdater\\gekimoe-stream-nt-autoupdater.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC5C414E-FA78-1F97-DEBC-0D4711239534}|gekimoe-stream-nt-autostart.csproj|e:\\project\\gekimoe-stream-nt-autostart\\gekimoe-stream-nt-autostart.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BC5C414E-FA78-1F97-DEBC-0D4711239534}|gekimoe-stream-nt-autostart.csproj|solutionrelative:gekimoe-stream-nt-autostart.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC5C414E-FA78-1F97-DEBC-0D4711239534}|gekimoe-stream-nt-autostart.csproj|e:\\project\\gekimoe-stream-nt-autostart\\autostartapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC5C414E-FA78-1F97-DEBC-0D4711239534}|gekimoe-stream-nt-autostart.csproj|solutionrelative:autostartapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{144A790F-4C23-4EAF-8EAD-27B14BCE9C5C}|gekimoe-stream-nt-autoupdater\\gekimoe-stream-nt-autoupdater.csproj|e:\\project\\gekimoe-stream-nt-autostart\\gekimoe-stream-nt-autoupdater\\updateapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{144A790F-4C23-4EAF-8EAD-27B14BCE9C5C}|gekimoe-stream-nt-autoupdater\\gekimoe-stream-nt-autoupdater.csproj|solutionrelative:gekimoe-stream-nt-autoupdater\\updateapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC5C414E-FA78-1F97-DEBC-0D4711239534}|gekimoe-stream-nt-autostart.csproj|e:\\project\\gekimoe-stream-nt-autostart\\wwwroot\\autostart.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC5C414E-FA78-1F97-DEBC-0D4711239534}|gekimoe-stream-nt-autostart.csproj|solutionrelative:wwwroot\\autostart.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{144A790F-4C23-4EAF-8EAD-27B14BCE9C5C}|gekimoe-stream-nt-autoupdater\\gekimoe-stream-nt-autoupdater.csproj|e:\\project\\gekimoe-stream-nt-autostart\\gekimoe-stream-nt-autoupdater\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{144A790F-4C23-4EAF-8EAD-27B14BCE9C5C}|gekimoe-stream-nt-autoupdater\\gekimoe-stream-nt-autoupdater.csproj|solutionrelative:gekimoe-stream-nt-autoupdater\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC5C414E-FA78-1F97-DEBC-0D4711239534}|gekimoe-stream-nt-autostart.csproj|e:\\project\\gekimoe-stream-nt-autostart\\updaterapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC5C414E-FA78-1F97-DEBC-0D4711239534}|gekimoe-stream-nt-autostart.csproj|solutionrelative:updaterapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC5C414E-FA78-1F97-DEBC-0D4711239534}|gekimoe-stream-nt-autostart.csproj|e:\\project\\gekimoe-stream-nt-autostart\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC5C414E-FA78-1F97-DEBC-0D4711239534}|gekimoe-stream-nt-autostart.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC5C414E-FA78-1F97-DEBC-0D4711239534}|gekimoe-stream-nt-autostart.csproj|e:\\project\\gekimoe-stream-nt-autostart\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC5C414E-FA78-1F97-DEBC-0D4711239534}|gekimoe-stream-nt-autostart.csproj|solutionrelative:authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC5C414E-FA78-1F97-DEBC-0D4711239534}|gekimoe-stream-nt-autostart.csproj|e:\\project\\gekimoe-stream-nt-autostart\\windowhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC5C414E-FA78-1F97-DEBC-0D4711239534}|gekimoe-stream-nt-autostart.csproj|solutionrelative:windowhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC5C414E-FA78-1F97-DEBC-0D4711239534}|gekimoe-stream-nt-autostart.csproj|e:\\project\\gekimoe-stream-nt-autostart\\wwwroot\\updater.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC5C414E-FA78-1F97-DEBC-0D4711239534}|gekimoe-stream-nt-autostart.csproj|solutionrelative:wwwroot\\updater.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "gekimoe-stream-nt-autostart.csproj",
+              "DocumentMoniker": "E:\\project\\gekimoe-stream-nt-autostart\\gekimoe-stream-nt-autostart.csproj",
+              "RelativeDocumentMoniker": "gekimoe-stream-nt-autostart.csproj",
+              "ToolTip": "E:\\project\\gekimoe-stream-nt-autostart\\gekimoe-stream-nt-autostart.csproj",
+              "RelativeToolTip": "gekimoe-stream-nt-autostart.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-21T02:59:53.611Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "gekimoe-stream-nt-autoupdater.csproj",
+              "DocumentMoniker": "E:\\project\\gekimoe-stream-nt-autostart\\gekimoe-stream-nt-autoupdater\\gekimoe-stream-nt-autoupdater.csproj",
+              "RelativeDocumentMoniker": "gekimoe-stream-nt-autoupdater\\gekimoe-stream-nt-autoupdater.csproj",
+              "ToolTip": "E:\\project\\gekimoe-stream-nt-autostart\\gekimoe-stream-nt-autoupdater\\gekimoe-stream-nt-autoupdater.csproj",
+              "RelativeToolTip": "gekimoe-stream-nt-autoupdater\\gekimoe-stream-nt-autoupdater.csproj",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-21T09:38:04.695Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UpdaterApp.cs",
+              "DocumentMoniker": "E:\\project\\gekimoe-stream-nt-autostart\\UpdaterApp.cs",
+              "RelativeDocumentMoniker": "UpdaterApp.cs",
+              "ToolTip": "E:\\project\\gekimoe-stream-nt-autostart\\UpdaterApp.cs",
+              "RelativeToolTip": "UpdaterApp.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAABIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T04:45:15.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AutoStartApp.cs",
+              "DocumentMoniker": "E:\\project\\gekimoe-stream-nt-autostart\\AutoStartApp.cs",
+              "RelativeDocumentMoniker": "AutoStartApp.cs",
+              "ToolTip": "E:\\project\\gekimoe-stream-nt-autostart\\AutoStartApp.cs",
+              "RelativeToolTip": "AutoStartApp.cs",
+              "ViewState": "AgIAAAkBAAAAAAAAAADwvxwBAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T04:44:56.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthManager.cs",
+              "DocumentMoniker": "E:\\project\\gekimoe-stream-nt-autostart\\AuthManager.cs",
+              "RelativeDocumentMoniker": "AuthManager.cs",
+              "ToolTip": "E:\\project\\gekimoe-stream-nt-autostart\\AuthManager.cs",
+              "RelativeToolTip": "AuthManager.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAUwAwAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T05:32:55.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WindowHelper.cs",
+              "DocumentMoniker": "E:\\project\\gekimoe-stream-nt-autostart\\WindowHelper.cs",
+              "RelativeDocumentMoniker": "WindowHelper.cs",
+              "ToolTip": "E:\\project\\gekimoe-stream-nt-autostart\\WindowHelper.cs",
+              "RelativeToolTip": "WindowHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T04:44:24.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "updater.html",
+              "DocumentMoniker": "E:\\project\\gekimoe-stream-nt-autostart\\wwwroot\\updater.html",
+              "RelativeDocumentMoniker": "wwwroot\\updater.html",
+              "ToolTip": "E:\\project\\gekimoe-stream-nt-autostart\\wwwroot\\updater.html",
+              "RelativeToolTip": "wwwroot\\updater.html",
+              "ViewState": "AgIAADYAAAAAAAAAAABOwDIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-02-21T03:25:39.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "autostart.html",
+              "DocumentMoniker": "E:\\project\\gekimoe-stream-nt-autostart\\wwwroot\\autostart.html",
+              "RelativeDocumentMoniker": "wwwroot\\autostart.html",
+              "ToolTip": "E:\\project\\gekimoe-stream-nt-autostart\\wwwroot\\autostart.html",
+              "RelativeToolTip": "wwwroot\\autostart.html",
+              "ViewState": "AgIAACcAAAAAAAAAAAAwwEMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-02-21T03:08:50.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UpdateApp.cs",
+              "DocumentMoniker": "E:\\project\\gekimoe-stream-nt-autostart\\gekimoe-stream-nt-autoupdater\\UpdateApp.cs",
+              "RelativeDocumentMoniker": "gekimoe-stream-nt-autoupdater\\UpdateApp.cs",
+              "ToolTip": "E:\\project\\gekimoe-stream-nt-autostart\\gekimoe-stream-nt-autoupdater\\UpdateApp.cs",
+              "RelativeToolTip": "gekimoe-stream-nt-autoupdater\\UpdateApp.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAADgv2IAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T09:53:11.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\project\\gekimoe-stream-nt-autostart\\gekimoe-stream-nt-autoupdater\\Program.cs",
+              "RelativeDocumentMoniker": "gekimoe-stream-nt-autoupdater\\Program.cs",
+              "ToolTip": "E:\\project\\gekimoe-stream-nt-autostart\\gekimoe-stream-nt-autoupdater\\Program.cs",
+              "RelativeToolTip": "gekimoe-stream-nt-autoupdater\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T10:12:21.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\project\\gekimoe-stream-nt-autostart\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\project\\gekimoe-stream-nt-autostart\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T02:57:43.693Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

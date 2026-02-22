@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        @font-face {
+            font-family: 'Pretendard';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Regular.woff2') format('woff2');
+            font-weight: 400;
+            font-display: swap;
+        }
+        @font-face {
+            font-family: 'ClipArtKorea-Logo';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2511-2@1.0/Clipartkorea-Bold.woff2') format('woff2');
+            font-weight: 700;
+            font-display: swap;
+        }
+        body {
+            background-color: #202020;
+            color: #FAFAFA;
+            border-radius: 12px; /* OS 둥글기 값에 맞춰 조절 */
+            border: 1px solid #444; /* 테두리가 없으므로 얇은 선을 주면 더 고급스럽습니다 */
+            box-sizing: border-box;
+            font-family: 'Pretendard', sans-serif;
+            margin: 0;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            user-select: none;
+        }
+        .logo-container { margin-top: 26px; width: 849px; height: 128px; display: flex; justify-content: center; }
+        .logo-container img { max-width: 100%; object-fit: contain; }
+        .status-title {
+            font-family: 'ClipArtKorea-Logo', sans-serif; /* 💡 이 한 줄이 추가되었습니다! */
+            font-size: 24pt;
+            font-weight: 700; /* 불러온 폰트 굵기(700)에 맞추면 렌더링이 더 깔끔합니다 */
+            margin-top: 28px;
+            width: 837px;
+            text-align: center;
+        }
+        .info-text { font-size: 15pt; font-weight: 800; margin-top: 22px; width: 829px; height: 74px; text-align: center; display: flex; align-items: center; justify-content: center; }
+        .version-container { position: absolute; left: 15px; top: 347px; font-size: 15pt; font-weight: 800; }
+        .version-value { font-weight: 400; font-size: 14pt; margin-left: 5px; }
+        .progress-text { position: absolute; bottom: 0; width: 100%; height: 52px; font-size: 15pt; text-align: center; display: flex; justify-content: center; align-items: flex-start; }
+    </style>
+</head>
+<body>
+    <div class="logo-container">
+        <img src="assets/logo.svg" alt="Logo">
+    </div>
+
+    <div id="lbl_name" class="status-title">방송PC를 준비하고 있습니다...</div>
+
+    <div id="lbl_information" class="info-text">시스템 체크 중...</div>
+
+    <div class="version-container">
+        AutoStart System Version : <span id="lbl_nowver" class="version-value">-</span>
+    </div>
+
+    <div id="pg" class="progress-text">초기화 중...</div>
+
+    <script>
+        window.external.receiveMessage(function(data) {
+            const json = JSON.parse(data);
+            if (json.target === 'info') document.getElementById('lbl_information').innerText = json.value;
+            if (json.target === 'nowver') document.getElementById('lbl_nowver').innerText = json.value;
+            if (json.target === 'name') document.getElementById('lbl_name').innerText = json.value;
+            if (json.target === 'pg') document.getElementById('pg').innerText = json.value;
+        });
+    </script>
+</body>
+</html>

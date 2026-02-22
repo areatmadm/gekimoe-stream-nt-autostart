@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <AssemblyName>GEKImoeStreamUpdaterNT</AssemblyName>
+    <RootNamespace>gekimoe_stream_nt_autoupdater</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ApplicationIcon>wwwroot\assets\updater.ico</ApplicationIcon>
+
+    <Title>GEKImoe Stream NT Updater</Title>
+    <Description>GEKImoe Stream NT Updater</Description>
+    <Product>GEKImoe Stream NT Updater</Product>
+    <Company>AreaTM</Company>
+    <Copyright>© 2019-2026 AreaTM</Copyright>
+    <Version>6.0.0</Version>
+    <FileVersion>6.0.0.5</FileVersion>
+    <AssemblyVersion>6.0.0.5</AssemblyVersion>
+    <BuildDateTime>202602220234</BuildDateTime>
+    
+    <Platforms>x64</Platforms>
+    <RuntimeIdentifiers>win-x64</RuntimeIdentifiers>
+    <SignAssembly>true</SignAssembly>
+    <KeyContainerName>VS_KEY_DF042C0B0EDEF7BD</KeyContainerName>
+
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>true</SelfContained>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Photino.NET" Version="4.0.16" />
+    <PackageReference Include="Squid-Box.SevenZipSharp" Version="1.6.2.24" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <AssemblyMetadata Include="BuildDateTime" Value="$(BuildDateTime)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="7z.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <Target Name="SignPublishedExe" AfterTargets="Publish">
+    <Exec Command="taskkill /f /im AutoStartNT.exe /t &gt;nul 2&gt;&amp;1 &amp; timeout /t 5 &gt;nul &amp;call &quot;$(DevEnvDir)..\Tools\VsDevCmd.bat&quot; &gt;nul &amp; signtool sign /f &quot;E:\project\areatm.pfx&quot; /p &quot;GekiMoeAssistant@withAreaTM00115!&quot; /tr http://timestamp.digicert.com /td sha256 /fd sha256 &quot;$(PublishDir)$(TargetName).exe&quot;" />
+  </Target>
+
+</Project>

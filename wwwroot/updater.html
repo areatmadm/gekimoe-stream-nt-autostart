@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        @font-face {
+            font-family: 'Pretendard';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Regular.woff2') format('woff2');
+            font-weight: 400;
+            font-display: swap;
+        }
+
+        body {
+            background-color: #202020;
+            color: #FAFAFA;
+            font-family: 'Pretendard', sans-serif;
+            margin: 0;
+            overflow: hidden;
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+            user-select: none;
+            border-radius: 8px;
+            border: 1px solid #444;
+            box-sizing: border-box;
+        }
+
+        .logo-wrapper {
+            width: 100%;
+            /* 💡 로고 높이를 70px -> 100px로 큼직하게 키웠습니다 */
+            height: 120px;
+            /* 💡 로고가 커진 만큼 위쪽 여백을 조금 줄여서 중앙 밸런스를 맞췄습니다 */
+            margin-top: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo-wrapper img {
+            height: 100%;
+            width: auto;
+            max-width: 90%;
+        }
+
+        .updater-status {
+            /* 💡 창이 커졌으니 글씨도 14pt -> 16pt 로 키웠습니다 */
+            font-size: 16pt;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 50px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="logo-wrapper">
+        <img src="assets/updaterlogo.svg" alt="Updater Logo">
+    </div>
+
+    <div id="lbl_status" class="updater-status">업데이트를 확인하는 중입니다...</div>
+
+    <script>
+        window.external.receiveMessage(function (data) {
+            const json = JSON.parse(data);
+            if (json.target === 'status') {
+                document.getElementById('lbl_status').innerText = json.value;
+            }
+        });
+    </script>
+</body>
+</html>
